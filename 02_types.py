@@ -2,28 +2,35 @@
 
 # ----------------------------------------------------------------------------
 # declare some variables:
-var_str = "This is a string"
-var_int = 4
-var_float = 3.4
-var_bool = True
+a = True
+b = 4
+c = 3.4
+d = "This is a string"
 
 # ----------------------------------------------------------------------------
 # you can use python's built-in type() method to determine a variable's type:
-print(type(var_str)) # <class 'str'>
-print(type(var_int))    # <class 'int'>
-print(type(var_float))  # <class 'float'>
-print(type(var_bool))   # <class 'bool'>
+print(type(a))  # <class 'bool'>
+print(type(b))  # <class 'int'>
+print(type(c))  # <class 'float'>
+print(type(d))  # <class 'str'>
 
 # ----------------------------------------------------------------------------
 # how does the interpreter handle operations between two different data types?
 
-# no problem:
-result = var_float + var_int
-print(result)
+# bool and float/int types? no problem:
+result = a + b
+print(result) # 5
 
-# bool values False and True are interpreted as 0 or 1, respectively
-result = var_bool + var_int
-print(result)
+result = a + c
+print(result) # 4.4
+# bool are really ints where False = 0 and True = 1.
 
-# str can only be concatenated with str
-# result = var_str + var_float # <-- produces error
+# int and float types? no problem:
+result = b + c
+print(result) # 7.4
+
+# str and int/float/bool type?
+# result = a + d # <-- ERROR!
+# result = b + d # <-- ERROR!
+# result = c + d # <-- ERROR!
+# str type is only compatible with str type.

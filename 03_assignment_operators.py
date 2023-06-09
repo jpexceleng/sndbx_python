@@ -18,7 +18,7 @@ print(a) # 15
 a /= 5
 print(a) # 3
 
-# exponential
+# powers
 a **= 3
 print(a) # 9
 

@@ -4,20 +4,23 @@ a = 2
 b = 3
 
 # addition
-print(a + b)
+print(a + b) # 5
 
 # subtraction
-print(a - b)
+print(a - b) # -1
 
 # divison
-print(a / b)
-# NOTE: result is automatically converted to float type
+print(a / b) # 0.666666666666666
+# Note how result is automatically converted to float type
+
+# floor division (truncates fractional part of result)
+print (a // b) # 0
 
 # multiplication
-print(a * b)
+print(a * b) # 6
 
-# exponential
-print(a ** b)
+# powers
+print(a ** b) # 8
 
 # modulus
-print(a % b)
+print(a % b) # 2
