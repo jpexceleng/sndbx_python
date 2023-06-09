@@ -1,4 +1,4 @@
-# user input
+# input()
 # ----------------------------------------------------------------------------
 # use input() method to get input from user:
 x = input("Please enter any input: ")

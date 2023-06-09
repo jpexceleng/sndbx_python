@@ -9,6 +9,8 @@ Collection of code samples that:
 
 1. python official doc -> https://docs.python.org/3/
 2. python tutorial -> https://www.pythontutorial.net/
+3. PEP 0 -> https://peps.python.org/pep-0000/
+4. PEP 8 -> https://peps.python.org/pep-0008/
 
 ## Demos
 - data types
