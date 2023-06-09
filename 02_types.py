@@ -1,12 +1,13 @@
 # python supports the usual types as found in other programming languages.
 
+# variable declarations
 # ----------------------------------------------------------------------------
-# declare some variables:
 a = True
 b = 4
 c = 3.4
 d = "This is a string"
 
+# determine type of a variable
 # ----------------------------------------------------------------------------
 # you can use python's built-in type() method to determine a variable's type:
 print(type(a))  # <class 'bool'>
@@ -14,6 +15,8 @@ print(type(b))  # <class 'int'>
 print(type(c))  # <class 'float'>
 print(type(d))  # <class 'str'>
 
+
+# operations between differing types
 # ----------------------------------------------------------------------------
 # how does the interpreter handle operations between two different data types?
 
