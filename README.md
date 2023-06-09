@@ -2,8 +2,10 @@
 
 Collection of code samples that:
 - demo capability and utility of python language, 
-- can be used as examples to refer back to,
-- represent ownership of my learning and knowledge.
+- can be used as examples to refer back to.
+
+You don't need to capture everything; focus on getting the basic idea and
+then go back for the details.
 
 ## References
 
@@ -13,6 +15,7 @@ Collection of code samples that:
 4. PEP 8 -> https://peps.python.org/pep-0008/
 
 ## Demos
+
 - data types
 - type conversion
 - comparison operators
